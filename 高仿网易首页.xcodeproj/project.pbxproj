@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F383A8522235F2C800DB63A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8512235F2C800DB63A1 /* AppDelegate.m */; };
+		F383A85A2235F2CA00DB63A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383A8592235F2CA00DB63A1 /* Assets.xcassets */; };
+		F383A85D2235F2CA00DB63A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383A85B2235F2CA00DB63A1 /* LaunchScreen.storyboard */; };
+		F383A8602235F2CA00DB63A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A85F2235F2CA00DB63A1 /* main.m */; };
+		F383A86A2235F2CB00DB63A1 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8692235F2CB00DB63A1 /* ______Tests.m */; };
+		F383A8752235F2CB00DB63A1 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8742235F2CB00DB63A1 /* ______UITests.m */; };
+		F383A8882235F35F00DB63A1 /* LYCSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8872235F35F00DB63A1 /* LYCSegmentBar.m */; };
+		F383A88B2235F39F00DB63A1 /* LYCSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A88A2235F39F00DB63A1 /* LYCSegmentConfig.m */; };
+		F383A88E2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A88D2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.m */; };
+		F383A8912235F40200DB63A1 /* LYCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8902235F40200DB63A1 /* LYCHomeViewController.m */; };
+		F383A8942235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8932235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.m */; };
+		F383A8982235F76700DB63A1 /* LYCSegmentRightLeftBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8972235F76700DB63A1 /* LYCSegmentRightLeftBtn.m */; };
+		F383A89C2235F7DE00DB63A1 /* UIView+LYCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A89B2235F7DE00DB63A1 /* UIView+LYCLayout.m */; };
+		F383A89F2236004200DB63A1 /* LYCMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A89E2236004200DB63A1 /* LYCMenuCell.m */; };
+		F383A8A22236048900DB63A1 /* LYCChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F383A8A12236048900DB63A1 /* LYCChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F383A8662235F2CB00DB63A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F383A8452235F2C800DB63A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F383A84C2235F2C800DB63A1;
+			remoteInfo = "高仿网易首页";
+		};
+		F383A8712235F2CB00DB63A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F383A8452235F2C800DB63A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F383A84C2235F2C800DB63A1;
+			remoteInfo = "高仿网易首页";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F383A84D2235F2C800DB63A1 /* 高仿网易首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿网易首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383A8502235F2C800DB63A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F383A8512235F2C800DB63A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F383A8592235F2CA00DB63A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F383A85C2235F2CA00DB63A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F383A85E2235F2CA00DB63A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383A85F2235F2CA00DB63A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F383A8652235F2CB00DB63A1 /* 高仿网易首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿网易首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383A8692235F2CB00DB63A1 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		F383A86B2235F2CB00DB63A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383A8702235F2CB00DB63A1 /* 高仿网易首页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿网易首页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383A8742235F2CB00DB63A1 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		F383A8762235F2CB00DB63A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383A8862235F35F00DB63A1 /* LYCSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCSegmentBar.h; sourceTree = "<group>"; };
+		F383A8872235F35F00DB63A1 /* LYCSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCSegmentBar.m; sourceTree = "<group>"; };
+		F383A8892235F39F00DB63A1 /* LYCSegmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCSegmentConfig.h; sourceTree = "<group>"; };
+		F383A88A2235F39F00DB63A1 /* LYCSegmentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCSegmentConfig.m; sourceTree = "<group>"; };
+		F383A88C2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCMenuBarShowDetailViewController.h; sourceTree = "<group>"; };
+		F383A88D2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCMenuBarShowDetailViewController.m; sourceTree = "<group>"; };
+		F383A88F2235F40200DB63A1 /* LYCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCHomeViewController.h; sourceTree = "<group>"; };
+		F383A8902235F40200DB63A1 /* LYCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCHomeViewController.m; sourceTree = "<group>"; };
+		F383A8922235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LYCSegmentModelProtocol.h"; sourceTree = "<group>"; };
+		F383A8932235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYCSegmentModelProtocol.m"; sourceTree = "<group>"; };
+		F383A8952235F6E500DB63A1 /* LYCSegmentModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCSegmentModelProtocol.h; sourceTree = "<group>"; };
+		F383A8962235F76700DB63A1 /* LYCSegmentRightLeftBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCSegmentRightLeftBtn.h; sourceTree = "<group>"; };
+		F383A8972235F76700DB63A1 /* LYCSegmentRightLeftBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCSegmentRightLeftBtn.m; sourceTree = "<group>"; };
+		F383A89A2235F7DE00DB63A1 /* UIView+LYCLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCLayout.h"; sourceTree = "<group>"; };
+		F383A89B2235F7DE00DB63A1 /* UIView+LYCLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCLayout.m"; sourceTree = "<group>"; };
+		F383A89D2236004200DB63A1 /* LYCMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCMenuCell.h; sourceTree = "<group>"; };
+		F383A89E2236004200DB63A1 /* LYCMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCMenuCell.m; sourceTree = "<group>"; };
+		F383A8A02236048900DB63A1 /* LYCChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCChildViewController.h; sourceTree = "<group>"; };
+		F383A8A12236048900DB63A1 /* LYCChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F383A84A2235F2C800DB63A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A8622235F2CB00DB63A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A86D2235F2CB00DB63A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F383A8442235F2C800DB63A1 = {
+			isa = PBXGroup;
+			children = (
+				F383A84F2235F2C800DB63A1 /* 高仿网易首页 */,
+				F383A8682235F2CB00DB63A1 /* 高仿网易首页Tests */,
+				F383A8732235F2CB00DB63A1 /* 高仿网易首页UITests */,
+				F383A84E2235F2C800DB63A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F383A84E2235F2C800DB63A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F383A84D2235F2C800DB63A1 /* 高仿网易首页.app */,
+				F383A8652235F2CB00DB63A1 /* 高仿网易首页Tests.xctest */,
+				F383A8702235F2CB00DB63A1 /* 高仿网易首页UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F383A84F2235F2C800DB63A1 /* 高仿网易首页 */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8992235F7C400DB63A1 /* Category */,
+				F383A8852235F33700DB63A1 /* Model */,
+				F383A8842235F32E00DB63A1 /* View */,
+				F383A8832235F32100DB63A1 /* ViewController */,
+				F383A8822235F2E000DB63A1 /* LYCAppDelegate */,
+			);
+			path = "高仿网易首页";
+			sourceTree = "<group>";
+		};
+		F383A8682235F2CB00DB63A1 /* 高仿网易首页Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8692235F2CB00DB63A1 /* ______Tests.m */,
+				F383A86B2235F2CB00DB63A1 /* Info.plist */,
+			);
+			path = "高仿网易首页Tests";
+			sourceTree = "<group>";
+		};
+		F383A8732235F2CB00DB63A1 /* 高仿网易首页UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8742235F2CB00DB63A1 /* ______UITests.m */,
+				F383A8762235F2CB00DB63A1 /* Info.plist */,
+			);
+			path = "高仿网易首页UITests";
+			sourceTree = "<group>";
+		};
+		F383A8822235F2E000DB63A1 /* LYCAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8502235F2C800DB63A1 /* AppDelegate.h */,
+				F383A8512235F2C800DB63A1 /* AppDelegate.m */,
+				F383A8592235F2CA00DB63A1 /* Assets.xcassets */,
+				F383A85B2235F2CA00DB63A1 /* LaunchScreen.storyboard */,
+				F383A85E2235F2CA00DB63A1 /* Info.plist */,
+				F383A85F2235F2CA00DB63A1 /* main.m */,
+			);
+			path = LYCAppDelegate;
+			sourceTree = "<group>";
+		};
+		F383A8832235F32100DB63A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F383A88C2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.h */,
+				F383A88D2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.m */,
+				F383A88F2235F40200DB63A1 /* LYCHomeViewController.h */,
+				F383A8902235F40200DB63A1 /* LYCHomeViewController.m */,
+				F383A8A02236048900DB63A1 /* LYCChildViewController.h */,
+				F383A8A12236048900DB63A1 /* LYCChildViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F383A8842235F32E00DB63A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8862235F35F00DB63A1 /* LYCSegmentBar.h */,
+				F383A8872235F35F00DB63A1 /* LYCSegmentBar.m */,
+				F383A8962235F76700DB63A1 /* LYCSegmentRightLeftBtn.h */,
+				F383A8972235F76700DB63A1 /* LYCSegmentRightLeftBtn.m */,
+				F383A89D2236004200DB63A1 /* LYCMenuCell.h */,
+				F383A89E2236004200DB63A1 /* LYCMenuCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F383A8852235F33700DB63A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F383A8892235F39F00DB63A1 /* LYCSegmentConfig.h */,
+				F383A88A2235F39F00DB63A1 /* LYCSegmentConfig.m */,
+				F383A8922235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.h */,
+				F383A8932235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.m */,
+				F383A8952235F6E500DB63A1 /* LYCSegmentModelProtocol.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F383A8992235F7C400DB63A1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F383A89A2235F7DE00DB63A1 /* UIView+LYCLayout.h */,
+				F383A89B2235F7DE00DB63A1 /* UIView+LYCLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F383A84C2235F2C800DB63A1 /* 高仿网易首页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383A8792235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页" */;
+			buildPhases = (
+				F383A8492235F2C800DB63A1 /* Sources */,
+				F383A84A2235F2C800DB63A1 /* Frameworks */,
+				F383A84B2235F2C800DB63A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高仿网易首页";
+			productName = "高仿网易首页";
+			productReference = F383A84D2235F2C800DB63A1 /* 高仿网易首页.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F383A8642235F2CB00DB63A1 /* 高仿网易首页Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383A87C2235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页Tests" */;
+			buildPhases = (
+				F383A8612235F2CB00DB63A1 /* Sources */,
+				F383A8622235F2CB00DB63A1 /* Frameworks */,
+				F383A8632235F2CB00DB63A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F383A8672235F2CB00DB63A1 /* PBXTargetDependency */,
+			);
+			name = "高仿网易首页Tests";
+			productName = "高仿网易首页Tests";
+			productReference = F383A8652235F2CB00DB63A1 /* 高仿网易首页Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F383A86F2235F2CB00DB63A1 /* 高仿网易首页UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383A87F2235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页UITests" */;
+			buildPhases = (
+				F383A86C2235F2CB00DB63A1 /* Sources */,
+				F383A86D2235F2CB00DB63A1 /* Frameworks */,
+				F383A86E2235F2CB00DB63A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F383A8722235F2CB00DB63A1 /* PBXTargetDependency */,
+			);
+			name = "高仿网易首页UITests";
+			productName = "高仿网易首页UITests";
+			productReference = F383A8702235F2CB00DB63A1 /* 高仿网易首页UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F383A8452235F2C800DB63A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYC;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "太极华青协同办公";
+				TargetAttributes = {
+					F383A84C2235F2C800DB63A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F383A8642235F2CB00DB63A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F383A84C2235F2C800DB63A1;
+					};
+					F383A86F2235F2CB00DB63A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F383A84C2235F2C800DB63A1;
+					};
+				};
+			};
+			buildConfigurationList = F383A8482235F2C800DB63A1 /* Build configuration list for PBXProject "高仿网易首页" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F383A8442235F2C800DB63A1;
+			productRefGroup = F383A84E2235F2C800DB63A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F383A84C2235F2C800DB63A1 /* 高仿网易首页 */,
+				F383A8642235F2CB00DB63A1 /* 高仿网易首页Tests */,
+				F383A86F2235F2CB00DB63A1 /* 高仿网易首页UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F383A84B2235F2C800DB63A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383A85D2235F2CA00DB63A1 /* LaunchScreen.storyboard in Resources */,
+				F383A85A2235F2CA00DB63A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A8632235F2CB00DB63A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A86E2235F2CB00DB63A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F383A8492235F2C800DB63A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383A8A22236048900DB63A1 /* LYCChildViewController.m in Sources */,
+				F383A8912235F40200DB63A1 /* LYCHomeViewController.m in Sources */,
+				F383A8602235F2CA00DB63A1 /* main.m in Sources */,
+				F383A88E2235F3ED00DB63A1 /* LYCMenuBarShowDetailViewController.m in Sources */,
+				F383A89F2236004200DB63A1 /* LYCMenuCell.m in Sources */,
+				F383A8982235F76700DB63A1 /* LYCSegmentRightLeftBtn.m in Sources */,
+				F383A8882235F35F00DB63A1 /* LYCSegmentBar.m in Sources */,
+				F383A88B2235F39F00DB63A1 /* LYCSegmentConfig.m in Sources */,
+				F383A89C2235F7DE00DB63A1 /* UIView+LYCLayout.m in Sources */,
+				F383A8522235F2C800DB63A1 /* AppDelegate.m in Sources */,
+				F383A8942235F69D00DB63A1 /* NSString+LYCSegmentModelProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A8612235F2CB00DB63A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383A86A2235F2CB00DB63A1 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383A86C2235F2CB00DB63A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383A8752235F2CB00DB63A1 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F383A8672235F2CB00DB63A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F383A84C2235F2C800DB63A1 /* 高仿网易首页 */;
+			targetProxy = F383A8662235F2CB00DB63A1 /* PBXContainerItemProxy */;
+		};
+		F383A8722235F2CB00DB63A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F383A84C2235F2C800DB63A1 /* 高仿网易首页 */;
+			targetProxy = F383A8712235F2CB00DB63A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F383A85B2235F2CA00DB63A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F383A85C2235F2CA00DB63A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F383A8772235F2CB00DB63A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F383A8782235F2CB00DB63A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F383A87A2235F2CB00DB63A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "$(SRCROOT)/高仿网易首页/LYCAppDelegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F383A87B2235F2CB00DB63A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "$(SRCROOT)/高仿网易首页/LYCAppDelegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F383A87D2235F2CB00DB63A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "高仿网易首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高仿网易首页.app/高仿网易首页";
+			};
+			name = Debug;
+		};
+		F383A87E2235F2CB00DB63A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "高仿网易首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高仿网易首页.app/高仿网易首页";
+			};
+			name = Release;
+		};
+		F383A8802235F2CB00DB63A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "高仿网易首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "高仿网易首页";
+			};
+			name = Debug;
+		};
+		F383A8812235F2CB00DB63A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "高仿网易首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "高仿网易首页";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F383A8482235F2C800DB63A1 /* Build configuration list for PBXProject "高仿网易首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383A8772235F2CB00DB63A1 /* Debug */,
+				F383A8782235F2CB00DB63A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383A8792235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383A87A2235F2CB00DB63A1 /* Debug */,
+				F383A87B2235F2CB00DB63A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383A87C2235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383A87D2235F2CB00DB63A1 /* Debug */,
+				F383A87E2235F2CB00DB63A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383A87F2235F2CB00DB63A1 /* Build configuration list for PBXNativeTarget "高仿网易首页UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383A8802235F2CB00DB63A1 /* Debug */,
+				F383A8812235F2CB00DB63A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F383A8452235F2C800DB63A1 /* Project object */;
+}
